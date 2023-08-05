@@ -180,7 +180,7 @@ function renderProducts() {
       <img src="${product.Image}" alt="${product.title}" width="150" class="mb-2">
       <h3 class="text-lg font-bold">${product.title}</h3>
       <p class="mb-4">$${product.price.toFixed(2)}</p>
-      <button onclick="addToCart(products[${product.id}])" class="bg-blue-500 hover:bg-blue-700 text-white font-bold py-2 px-4 rounded">
+      <button onclick="addToCart(products[${product.id}])" class="bg-blue-500 hover:bg-blue-700 text-white font-bold py-1 px-2 rounded">
         Add to Cart
       </button>
     `;
