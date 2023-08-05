@@ -45,8 +45,8 @@
     },
     {
         id: 7,
-        Image: "images/GamingMouse.jpg",
-        title: 'RGB Gaming Mouse',
+        Image: "images/AirPods.jpg",
+        title: 'Air Pods Pro',
         price: 45,
     },
     {
