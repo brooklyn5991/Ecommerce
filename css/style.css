@@ -8,13 +8,17 @@
     overflow-y: auto; /* Enable scrolling if items overflow the container */
   }
 
-  
-@media (max-width: 767px) {
-  .md:p-4 {
-    padding: 0 1rem 0 2rem; /* Adding left padding of 2rem */
-  }
 
-  .text-base {
-    font-size: 0.875rem;
+  
+  @media (max-width: 767px) {
+    .about-us {
+      padding-left: 20px;   /* Adjust this value according to your preference */
+      padding-right: 20px;  /* Adjust this value according to your preference */
   }
-}
+  
+  
+    .text-base {
+      font-size: 0.875rem;
+    }
+  }
+  
