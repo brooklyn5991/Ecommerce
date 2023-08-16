@@ -9,12 +9,12 @@
   }
 
   
-  @media (max-width: 767px) {
-    .md:p-4 {
-      padding: 0 1rem;
-    }
-  
-    .text-base {
-      font-size: 0.875rem;
-    }
+@media (max-width: 767px) {
+  .md:p-4 {
+    padding: 0 1rem 0 2rem; /* Adding left padding of 2rem */
   }
+
+  .text-base {
+    font-size: 0.875rem;
+  }
+}
