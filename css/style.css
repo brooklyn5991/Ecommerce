@@ -1,0 +1,20 @@
+#cart-popup {
+    overflow-y: auto; /* Enable vertical scrolling */
+  }
+  
+  /* CSS for cart items container within the popup */
+  #cart-items {
+    max-height: 300px; /* Set a maximum height for the items container */
+    overflow-y: auto; /* Enable scrolling if items overflow the container */
+  }
+
+  
+  @media (max-width: 767px) {
+    .md:p-4 {
+      padding: 0 1rem;
+    }
+  
+    .text-base {
+      font-size: 0.875rem;
+    }
+  }
